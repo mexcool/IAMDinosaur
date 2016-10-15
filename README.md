@@ -1,4 +1,4 @@
-# IAMDinosaur
+# IAMDinosaur (forked)
 
 ![IAMDinosaur](https://raw.githubusercontent.com/ivanseidel/IAMDinosaur/master/assets/top_score.png)
 
@@ -19,8 +19,8 @@ jump cactus, using Neural Networks and a simple Genetic Algorithm.
    **(Tip: go to developer tools, and under network, set to offline )**
 
 5. run `node index` within this folder. If the game was located, it will move the cursor
-   of the mouse to the origin of the `floor` of the dino. Press `s` key in the terminal to 
-   start learning. 
+   of the mouse to the origin of the `floor` of the dino. Press `s` key in the terminal to
+   start learning.
 
 
 ## How does it work
@@ -39,9 +39,9 @@ We have also, one output with 3 possible states:
 
 ## Genetic Algorithm
 
-Each Generation consists of 12 neural networks (Genomes). 
+Each Generation consists of 12 neural networks (Genomes).
 
-Each genome is tested with the game, by constantly mapping the read 
+Each genome is tested with the game, by constantly mapping the read
 inputs from  the game to the inputs of the neural network, and by getting
 the output/activation from the network and applying to the keys of the
 keyboard.
@@ -95,7 +95,7 @@ The dino game has a anoying bug: It starts to "drift" to the right with time
 making the dino to be wrong offseted from the origin of the game. That, makes
 the program to read the dino as a cactus, since it is the same color.
 
-You can fix that by continuously refreshing the page, or, by pasting this code inside the 
+You can fix that by continuously refreshing the page, or, by pasting this code inside the
 console in the element inspector:
 
 ```
@@ -113,4 +113,3 @@ It is not complex, and has a great simple pattern for things.
 - [Ivan Seidel](https://github.com/ivanseidel)
 - [João Pedro](https://github.com/joaopedrovbs)
 - [Tony Ngan](https://github.com/tngan) **The idea came from him**
-
